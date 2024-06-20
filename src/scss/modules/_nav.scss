@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -139;
+}
+
+.nav .menu {
+  width: 72px;
+}
+
+.nav .user {
+  width: 22px;
+  transition: transform 0.3s;
+}
+
+.nav .panier {
+  width: 22px;
+  transition: transform 0.3s;
+}
+
+.nav .user:hover {
+  transform: scale(1.4);
+}
+
+.nav .panier:hover {
+  transform: scale(1.4);
+}

@@ -1,0 +1,250 @@
+.burger {
+  position: absolute;
+  left: 729;
+  top: 106;
+  z-index: 1;
+  width: 40px;
+  height: 19px;
+  transition: transform 0.3s;
+}
+
+.burger:hover {
+  transform: scale(1.2);
+}
+
+.burger div {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+}
+
+.burger div:nth-child(1) {
+  top: 0;
+}
+
+.burger div:nth-child(2) {
+  top: 8px;
+}
+
+.burger div:nth-child(3) {
+  top: 16px;
+}
+
+.burger.is-active div:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: black;
+}
+
+.burger.is-active div:nth-child(2) {
+  transform: translateX(100%);
+  opacity: 0;
+  background-color: black;
+}
+
+.burger.is-active div:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  width: 20px;
+  height: 121px;
+  background: #ffffff;
+  pointer-events: none;
+  transform: translateX(100%);
+  visibility: hidden;
+}
+
+.menu.is-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  position: absolute;
+  height: 827px;
+  top: 0;
+  width: 100%;
+  pointer-events: auto;
+  transform: translateX(0);
+  visibility: visible;
+}
+
+ul {
+  margin-top: 70px;
+  list-style: none;
+  font-size: 64px;
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.menu .corner-haut-droite {
+  position: relative;
+  top: -71;
+  right: -659;
+}
+
+.menu .corner-haut-gauche {
+  position: relative;
+  top: -71;
+  right: 659;
+  margin: 0;
+  padding: 0;
+}
+
+.menu .corner-bas-droite {
+  position: relative;
+  top: -636;
+  right: -658.2;
+}
+
+.menu .corner-bas-gauche {
+  position: relative;
+  top: -636;
+  right: 658;
+}
+
+.contact-lien a {
+  padding-right: 30px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.contact-lien {
+  background-image: url(/src/img/fleche.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 850px;
+}
+
+.contact-lien a:hover {
+  transform: translateX(20px);
+  font-weight: 700;
+}
+
+.p-vente-lien a {
+  padding-right: 30px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.p-vente-lien {
+  background-image: url(/src/img/fleche.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 850px;
+}
+
+.p-vente-lien a:hover {
+  transform: translateX(20px);
+  font-weight: 700;
+}
+
+.shop-lien a {
+  padding-right: 30px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.shop-lien {
+  background-image: url(/src/img/fleche.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 850px;
+}
+
+.shop-lien a:hover {
+  transform: translateX(20px);
+  font-weight: 700;
+}
+
+.a-p-d-n-lien a {
+  padding-right: 30px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.a-p-d-n-lien {
+  background-image: url(/src/img/fleche.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 850px;
+}
+
+.a-p-d-n-lien a:hover {
+  transform: translateX(20px);
+  font-weight: 700;
+}
+
+.biere-lien a {
+  padding-right: 30px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-weight: 400;
+  padding-bottom: 19px;
+}
+
+.biere-lien {
+  background-image: url(/src/img/fleche.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 850px;
+}
+
+.biere-lien a:hover {
+  transform: translateX(20px);
+  font-weight: 700;
+}
+
+@media (min-width: 2000px) {
+  .burger {
+    position: absolute;
+    left: 1252;
+    top: 106;
+    z-index: 1;
+    width: 40px;
+    height: 19px;
+    transition: transform 0.3s;
+  }
+
+  .menu .corner-haut-droite {
+    position: relative;
+    top: -71;
+    right: -1183;
+  }
+
+  .menu .corner-haut-gauche {
+    position: relative;
+    top: -71;
+    right: 1182;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu .corner-bas-droite {
+    position: relative;
+    top: -636;
+    right: -1182;
+  }
+
+  .menu .corner-bas-gauche {
+    position: relative;
+    top: -636;
+    right: 1182;
+  }
+}

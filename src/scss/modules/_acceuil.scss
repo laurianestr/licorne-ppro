@@ -1,4 +1,28 @@
-.acceuil img {
-  display: block;
-  width: 50%;
+.acceuil .text-acceuil img {
+  width: 4%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.acceuil .info-acceuil {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.acceuil .info-acceuil .image-grain img {
+  border-left: 2px solid black;
+}
+
+.acceuil .info-acceuil .text-acceuil {
+  padding-right: 58px;
+  padding-left: 58px;
+  text-align: center;
+  font-size: 18px;
 }

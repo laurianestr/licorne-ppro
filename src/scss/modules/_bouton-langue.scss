@@ -4,4 +4,14 @@
   border-radius: 30px;
   color: white;
   background: none;
+  font-weight: 600;
+}
+
+.bouton-langue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -120;
 }

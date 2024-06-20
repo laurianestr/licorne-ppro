@@ -1,0 +1,24 @@
+.corner-haut {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  top: 30;
+}
+
+.corner-haut img,
+.corner-bas img {
+  width: 60px;
+}
+
+.corner-bas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  top: 680;
+}

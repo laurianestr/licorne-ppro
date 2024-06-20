@@ -1,0 +1,126 @@
+.a-propos-de-nous .histoire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.a-propos-de-nous .histoire img {
+  border-right: 2px solid black;
+}
+
+.a-propos-de-nous .histoire .text-histoire {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.a-propos-de-nous .text-histoire h4 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.a-propos-de-nous .text-histoire p {
+  font-size: 15px;
+}
+
+.a-propos-de-nous .text-histoire a {
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.a-propos-de-nous .histoire .point-vente {
+  border: 1px solid black;
+  height: 32px;
+  background-color: white;
+  transition: background-color 0.3s ease, width 0.3s ease;
+  color: black;
+  padding-top: 5px;
+  margin-top: 13px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transform: translateZ(0);
+}
+
+.a-propos-de-nous .histoire .point-vente:hover {
+  background-color: black;
+  color: white;
+  width: 180px;
+}
+
+.a-propos-de-nous .histoire .point-vente img {
+  border: 0;
+  filter: invert(0%);
+  transition: filter 0.2s;
+  width: 13px;
+}
+
+.a-propos-de-nous .histoire .point-vente:hover img {
+  filter: invert(100%);
+}
+
+.a-propos-de-nous .createur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.a-propos-de-nous .createur img {
+  border-right: 2px solid black;
+}
+
+.a-propos-de-nous .createur .text-createur {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.a-propos-de-nous .text-createur h4 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.a-propos-de-nous .text-createur p {
+  font-size: 15px;
+}
+
+.a-propos-de-nous .valeur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-bottom: 0;
+  border-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.a-propos-de-nous .valeur img {
+  border-right: 2px solid black;
+}
+
+.a-propos-de-nous .valeur .text-valeur {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.a-propos-de-nous .text-valeur h4 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.a-propos-de-nous .text-valeur p {
+  font-size: 15px;
+}

@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,10 +30,15 @@ body {
   font-family: "Creato Display", sans-serif;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: inherit;
 }
-
 
 img,
 video {
@@ -41,17 +47,6 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
 /* ====================================
 // base rules
 // ==================================== */

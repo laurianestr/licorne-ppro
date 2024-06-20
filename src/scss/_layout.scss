@@ -1,1 +1,108 @@
+h3 {
+  font-size: 55px;
+}
 
+header {
+  background-image: url(/src/img//fond.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 823px;
+}
+
+@media (min-width: 2000px) {
+  header {
+    background-image: url(/src/img/fond.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+
+header .container {
+  padding-bottom: 70px;
+}
+
+header h3 {
+  color: white;
+  font-size: 40;
+  margin-bottom: 243px;
+}
+
+header .sans-alcool h3 {
+  text-align: right;
+  padding-right: 17px;
+}
+
+header .brasserie h3 {
+  text-align: left;
+  padding-left: 17px;
+}
+
+header .logo {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer .info {
+  margin-top: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-weight: 400;
+  transition: 0.1s ease;
+}
+
+footer a:hover {
+  font-weight: 500;
+}
+
+footer .explorer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .info img {
+  margin-bottom: 35px;
+}
+
+footer .info h6 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+
+footer .info .reseaux {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .info .info-legal {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .info .info-legal a {
+  text-decoration: underline;
+}
+
+footer .droits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 30px;
+}
+
+footer .droits p {
+  font-size: 14px;
+  font-weight: 300;
+}
